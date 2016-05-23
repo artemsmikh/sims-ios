@@ -1,0 +1,19 @@
+PODS:
+  - Tapglue (1.1.7)
+  - TapglueSims (0.1.0):
+    - Tapglue (= 1.1.7)
+
+DEPENDENCIES:
+  - TapglueSims (from `../`)
+
+EXTERNAL SOURCES:
+  TapglueSims:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Tapglue: 56d054718808b1143a4178143a946a1bf4b3a997
+  TapglueSims: 46dba2c28a88ad2cd70618bf78a6b2fa0c30803a
+
+PODFILE CHECKSUM: 10c636f34ad6c6845ecc182ffc12e646a1bbec9e
+
+COCOAPODS: 1.0.0

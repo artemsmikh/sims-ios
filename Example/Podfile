@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'sims-ios_Example' do
-  pod 'sims-ios', :path => '../'
+  pod 'TapglueSims', :path => '../'
 
   target 'sims-ios_Tests' do
     inherit! :search_paths

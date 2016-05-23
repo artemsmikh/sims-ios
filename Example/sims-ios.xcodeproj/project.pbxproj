@@ -46,7 +46,7 @@
 		AAF78275BA7FA0B83B65EAC3 /* Pods-sims-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sims-ios_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sims-ios_Tests/Pods-sims-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B42DD5D7C795457770513E1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D029192BAB4422C411F377DB /* Pods_sims_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sims_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC54E7AF8D249062015C7A8C /* sims-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "sims-ios.podspec"; path = "../sims-ios.podspec"; sourceTree = "<group>"; };
+		EC54E7AF8D249062015C7A8C /* TapglueSims.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TapglueSims.podspec; path = ../TapglueSims.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				EC54E7AF8D249062015C7A8C /* sims-ios.podspec */,
+				EC54E7AF8D249062015C7A8C /* TapglueSims.podspec */,
 				B42DD5D7C795457770513E1D /* README.md */,
 				6A27D8E0315ABDDA22D90AE7 /* LICENSE */,
 			);

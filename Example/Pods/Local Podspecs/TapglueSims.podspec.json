@@ -1,0 +1,26 @@
+{
+  "name": "TapglueSims",
+  "version": "0.1.0",
+  "summary": "A short description of TapglueSims.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/sims-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "John Nilsen": "nilsen340@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/sims-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sims-ios/Classes/**/*",
+  "dependencies": {
+    "Tapglue": [
+      "1.1.7"
+    ]
+  }
+}

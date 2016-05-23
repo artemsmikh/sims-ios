@@ -1,0 +1,6 @@
+framework module TapglueSims {
+  umbrella header "TapglueSims-umbrella.h"
+
+  export *
+  module * { export * }
+}
