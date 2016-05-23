@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'sims-ios_Example' do
+  pod 'sims-ios', :path => '../'
+
+  target 'sims-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
