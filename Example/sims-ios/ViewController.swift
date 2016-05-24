@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Tapglue
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Tapglue.createAndLoginUserWithUsername("pablo", andPassword: "supersecret") { (success:Bool, error:NSError!) in
+            if success {
+                print("logged in!")
+            }
+        }
+
     }
 
     override func didReceiveMemoryWarning() {

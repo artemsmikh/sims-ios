@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C708A6BC5AEC1A033BF4EA /* Pods_sims_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFD45E583E9AEE8C7C477C3 /* Pods_sims_ios_Example.framework */; };
+		502F2902BF7B85AC8C8108C2 /* Pods_sims_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFD45E583E9AEE8C7C477C3 /* Pods_sims_ios_Example.framework */; };
+		5203EDC21CF3856E0019F4CD /* TapglueSimsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203EDBF1CF384B20019F4CD /* TapglueSimsTests.swift */; };
+		5203EDC31CF385AE0019F4CD /* MockSimsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203EDBE1CF384B20019F4CD /* MockSimsApi.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		2FE5E8D052FFD64568466A01 /* Pods-sims-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sims-ios_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sims-ios_Tests/Pods-sims-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3EEB4CB56335DF6D137F0E9F /* Pods-sims-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sims-ios_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-sims-ios_Example/Pods-sims-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5203EDBE1CF384B20019F4CD /* MockSimsApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSimsApi.swift; sourceTree = "<group>"; };
+		5203EDBF1CF384B20019F4CD /* TapglueSimsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapglueSimsTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* sims-ios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sims-ios_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C708A6BC5AEC1A033BF4EA /* Pods_sims_ios_Example.framework in Frameworks */,
+				502F2902BF7B85AC8C8108C2 /* Pods_sims_ios_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +139,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5203EDBE1CF384B20019F4CD /* MockSimsApi.swift */,
+				5203EDBF1CF384B20019F4CD /* TapglueSimsTests.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -368,6 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5203EDC31CF385AE0019F4CD /* MockSimsApi.swift in Sources */,
+				5203EDC21CF3856E0019F4CD /* TapglueSimsTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

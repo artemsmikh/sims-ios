@@ -19,6 +19,9 @@
   },
   "source_files": "sims-ios/Classes/**/*",
   "dependencies": {
+    "Alamofire": [
+      "~> 3.4"
+    ],
     "Tapglue": [
       "1.1.7"
     ]

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import sims-ios
+import TapglueSims
 
 class Tests: XCTestCase {
     
