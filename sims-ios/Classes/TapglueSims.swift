@@ -8,7 +8,6 @@
 
 import UIKit
 import Tapglue
-import Alamofire
 
 public class TapglueSims : NSObject, TGSessionTokenNotifier {
     let appToken: String

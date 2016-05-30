@@ -12,6 +12,7 @@ import XCTest
 class simsTestTests: XCTestCase {
     
     let appToken = "appToken"
+    let url = "https://api.tapglue.com"
     let mockApi = MockSimsApi()
     
     //SUT
@@ -19,7 +20,7 @@ class simsTestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        sims = TapglueSims(appToken: appToken)
+        sims = TapglueSims(appToken: appToken, url:url)
         sims.api = mockApi
     }
     
