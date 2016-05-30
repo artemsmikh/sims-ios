@@ -10,13 +10,19 @@ import Foundation
 import Alamofire
 
 class DefaultSimsApi: SimsApi {
+    
+    let url: String
+    let deviceRegistrationPath = "/0.4/me/devices/"
+    
+    init(url: String) {
+        self.url = url
+    }
 
     func registerDevice(appToken: String, deviceToken: String, sessionToken: String) {
         let authorizationToken = appToken + ":" + sessionToken
         let utf8authToken = authorizationToken.dataUsingEncoding(NSUTF8StringEncoding)
         let encodedAuthString = utf8authToken?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue:0))
-        let language = NSLocale.preferredLanguages()[0] ?? "en-En"
-        print(language)
+        let language = NSLocale.preferredLanguages()[0] ?? "en-EN"
         let headers = [
             "Authorization": "Basic " + encodedAuthString!,
             "Accept": "application/json"
@@ -26,8 +32,7 @@ class DefaultSimsApi: SimsApi {
                           "language": language]
         
         let idfv = UIDevice.currentDevice().identifierForVendor?.UUIDString
-        print(parameters)
-        let request = Alamofire.request(.PUT, "https://api.tapglue.com/0.4/me/devices/" + idfv!, headers:headers, parameters: (parameters as! [String : AnyObject]), encoding: .JSON).responseJSON { response in
+        let request = Alamofire.request(.PUT, url + deviceRegistrationPath + idfv!, headers:headers, parameters: (parameters as! [String : AnyObject]), encoding: .JSON).responseJSON { response in
             debugPrint(response)
         }
     }

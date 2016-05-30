@@ -104,7 +104,6 @@
 		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702D3B337A63E4DDA51C80A364C4032 /* MultipartFormData.swift */; };
 		CC37F50C102C5FCE3D2238582C9D5F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF01654967CFA350E6F7B0C5E97793 /* Foundation.framework */; };
 		D12B16F75AE0EFBE3BD379D49C7DFBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF01654967CFA350E6F7B0C5E97793 /* Foundation.framework */; };
-		D6C5EB117570A42F508CB17C0817DB1A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE0BC16DB7086562BC06E8B50C3386 /* ReplaceMe.swift */; };
 		D9DB9ACEA8863A157C11E812EC49FA3C /* TGUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2927B69B4105FD95937B47E02C7467 /* TGUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB423739F98121BCB57D4D5B149D71FB /* Tapglue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47166E8B16ABDADCF93B57341B1309C /* Tapglue.framework */; };
 		E1DB147554400997B5A3B917AEC91335 /* Tapglue+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 99916E51A9E60DDA2AFCFF6DF1726EC6 /* Tapglue+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -242,7 +241,6 @@
 		77410CBB1CF7406C176D0A683AD9B050 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ED19B0D14339FC77F50D0B20471324 /* Tapglue+Posts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Tapglue+Posts.h"; path = "Classes/Tapglue+Posts.h"; sourceTree = "<group>"; };
 		7B89603FC4A249D24CC9092F0CA33F3B /* TGImage+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TGImage+Private.h"; path = "Classes/Model/TGImage+Private.h"; sourceTree = "<group>"; };
-		7DAE0BC16DB7086562BC06E8B50C3386 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		7DD6056EFDA09E52DE5A6FFC17DD3C30 /* TGEventObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGEventObject.m; path = Classes/Model/TGEventObject.m; sourceTree = "<group>"; };
 		83E37CE5A75E1E5EDDEBC4CD748A82E6 /* TGReaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGReaction.h; path = Classes/Model/TGReaction.h; sourceTree = "<group>"; };
 		8449B42DD4E386952149E1FAC2225AEE /* TGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGLogger.h; path = Classes/TGLogger.h; sourceTree = "<group>"; };
@@ -570,7 +568,6 @@
 			isa = PBXGroup;
 			children = (
 				BCB5490BD5FF1363B01BCE74A8164E5E /* DefaultSimsApi.swift */,
-				7DAE0BC16DB7086562BC06E8B50C3386 /* ReplaceMe.swift */,
 				24D3821B717AB346D1DCB2D95E8B7B11 /* SimsApi.swift */,
 				1A377B4D3FA9B21D59F152DB1345A6B7 /* TapglueSims.swift */,
 			);
@@ -967,7 +964,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19C01E06ED222214D5EEA7B50280E70 /* DefaultSimsApi.swift in Sources */,
-				D6C5EB117570A42F508CB17C0817DB1A /* ReplaceMe.swift in Sources */,
 				78EE8B04C5E0E3A0C0D2A68DBE313B9C /* SimsApi.swift in Sources */,
 				1E0E17C523E75E80F5C9A527A9DD3271 /* TapglueSims-dummy.m in Sources */,
 				2551F716C22F673D18BAB58026E551A4 /* TapglueSims.swift in Sources */,

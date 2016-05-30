@@ -15,11 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     let appToken = "2da2d79336c2773c630ce46f5d24cb76"
+    let url = "https://api.tapglue.com"
     var sims: TapglueSims!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        sims = TapglueSims(appToken: appToken)
+        sims = TapglueSims(appToken: appToken, url: url)
         registerForPushNotifications(application)
         let customConfig = TGConfiguration.defaultConfiguration()
         customConfig.loggingEnabled = true

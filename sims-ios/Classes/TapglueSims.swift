@@ -14,10 +14,11 @@ public class TapglueSims : NSObject, TGSessionTokenNotifier {
     let appToken: String
     var sessionToken: String?
     var deviceToken: String?
-    var api : SimsApi = DefaultSimsApi()
+    var api : SimsApi
     
-    public init(appToken: String) {
+    public init(appToken: String, url: String) {
         self.appToken = appToken
+        api = DefaultSimsApi(url: url)
     }
     
     public func registerSimsNotificationSettings(application: UIApplication) {
