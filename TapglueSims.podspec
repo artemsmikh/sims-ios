@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire', '~> 3.4'
-  s.dependency 'Tapglue', '1.1.7'
+  s.dependency 'Tapglue', '1.1.8'
 end

@@ -1,9 +1,9 @@
 PODS:
   - Alamofire (3.4.0)
-  - Tapglue (1.1.7)
+  - Tapglue (1.1.8)
   - TapglueSims (0.1.0):
     - Alamofire (~> 3.4)
-    - Tapglue (= 1.1.7)
+    - Tapglue (= 1.1.8)
 
 DEPENDENCIES:
   - TapglueSims (from `../`)
@@ -14,8 +14,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
-  Tapglue: 56d054718808b1143a4178143a946a1bf4b3a997
-  TapglueSims: 4ad46cbbbaf3dc5625c3d46d9a9a08d48963155b
+  Tapglue: 5f80e2ff8a4e995b831d328890964f9b1a090f79
+  TapglueSims: 7fadb473bd9b367212c8a703af7c732deeb131e5
 
 PODFILE CHECKSUM: 0bd1f94c5dc8f8dbae1310d464a47bae9685eb09
 

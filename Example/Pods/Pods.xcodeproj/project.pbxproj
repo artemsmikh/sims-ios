@@ -14,20 +14,20 @@
 		08D5BC3CEF67630A3018340B02DF1B43 /* Pods-sims-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34D28CFE3BBD9186E727287BB27B1D7 /* Pods-sims-ios_Tests-dummy.m */; };
 		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14849A8D3132A42B0A47B0CF67202BFE /* Error.swift */; };
 		0A7733D44AB9F01B8B34AB91BC2839AE /* TGPostsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73C5E35450892605E2CA06D15CD83A /* TGPostsManager.m */; };
+		0B83E97F60882B85406095245F1A4784 /* TapglueSims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CD1E7C7864F93814E76C15E6FF79C /* TapglueSims-dummy.m */; };
 		0BC9C59ADCF6E4F96B2A18F51121FE8E /* TGConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5438033A40E21BEE845474934143D2C1 /* TGConfiguration.m */; };
 		0D95FA6904BF294F6054EB8B32CE581D /* TGAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC3146495EC21A358BD17FD97BA3075 /* TGAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DA3BEA4D226E9E4E7590CCEC624165C /* Pods-sims-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6089E8625139086F271982A69EA2F /* Pods-sims-ios_Example-dummy.m */; };
+		0F05313122946E20EBDEC4215F4F8E23 /* SimsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD390CC34FECE751FA1221580E01E /* SimsApi.swift */; };
 		14781882078C4BDACF37C0EF6BF91251 /* TGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 921351DBD1BEA4C840764C41D40AA413 /* TGObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15573C4B7C71542CB4231EAEDF825E10 /* Timeline.swift */; };
 		16B2DE6B825A61BC3DE06D48579A4EE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF01654967CFA350E6F7B0C5E97793 /* Foundation.framework */; };
 		18B64A061A07C158A14264F5315BC2F4 /* TGSessionTokenNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA5680ECDFED753F2054530FD131869 /* TGSessionTokenNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B3EEEC1A3A6E8C80AA4631A77D5009A /* NSError+TGError.h in Headers */ = {isa = PBXBuildFile; fileRef = 506D98FAB6790B1F6989C95BFD8E62EF /* NSError+TGError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B61B07DD474A26BD4864E50A47C735B /* TGReaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 158F34EC4950B0BB1D2CAB315B08DB08 /* TGReaction.m */; };
-		1E0E17C523E75E80F5C9A527A9DD3271 /* TapglueSims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CD1E7C7864F93814E76C15E6FF79C /* TapglueSims-dummy.m */; };
 		20B473C0590B43DDF2F87C099ADF5297 /* TGAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E26A5B9A20128B6F311732F844AA8 /* TGAttachment.m */; };
 		2110192E9F33673B3C35F7872D39E940 /* TGQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9934F48BCD342914C4A6CE5C81649DD6 /* TGQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		245035D0A790AF6273F36B0590B7749A /* TGComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 637BB50C4A3A657529CDD9CB20A9670D /* TGComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2551F716C22F673D18BAB58026E551A4 /* TapglueSims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A377B4D3FA9B21D59F152DB1345A6B7 /* TapglueSims.swift */; };
 		25625DB2E44EFF5696B8B895683B4F2C /* TGEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6099688901C82C7882A811F428F /* TGEventManager.m */; };
 		28A018CF5C6854199E4C768DE838D912 /* Pods-sims-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C05AC24D6BC05CB7A3FBD9CFFE45E2 /* Pods-sims-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE69197B9EF713CBCADBB9B8B38CA01 /* TGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E22982ADBF0700C85CAF14514F7D56E /* TGConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +64,6 @@
 		7576DF4A5E139BBB52E9189B1FFA55E2 /* TGApiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EADFEA0046D7FB24D880DBC10D81B24 /* TGApiClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		769E94D567910B40BA1E610904EEF46D /* TapglueSims-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 771D4CAAFB478D0F7EACDF538F9A27E5 /* TapglueSims-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76A665861C33F08A55F074CF4AA61526 /* TGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FC4D3E5971C67DE0640FF81ACFB368 /* TGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78EE8B04C5E0E3A0C0D2A68DBE313B9C /* SimsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3821B717AB346D1DCB2D95E8B7B11 /* SimsApi.swift */; };
 		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220D1A442CBD4A6DF4242D7D9D857A3 /* ServerTrustPolicy.swift */; };
 		8209676A6E577FFAEC184218D965FFFC /* TGQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 75931BD4B1DE7471F4EDA6C208FC8E25 /* TGQuery.m */; };
 		823D65A664052B14AE1607C8BDF977B6 /* TGEventManager+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D552DC6664F525A255ECD480053C70 /* TGEventManager+Queries.m */; };
@@ -79,7 +78,6 @@
 		9F1332CFF9FB24457DA9C73107EE6CBF /* TGObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C9002D34FE671BE69E2D05F88670FDA6 /* TGObjectCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F242F8C13335C79EE43EEC07C78B628 /* TGEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7592DE656A52CF2B902E80EF706EE8D2 /* TGEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5FC7812DE6B909419B6673168CF929 /* TGEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C7C076057F083ACAAF08B16AF255AE /* TGEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A19C01E06ED222214D5EEA7B50280E70 /* DefaultSimsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5490BD5FF1363B01BCE74A8164E5E /* DefaultSimsApi.swift */; };
 		A6289289EC7BB21CA062A331065B124A /* TGApiClient+TGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B43EC9B8091D95E35F5EEC5BCD03B270 /* TGApiClient+TGObject.m */; };
 		A81A1E73E7DA14A1B60F0C46492B4BE6 /* TGPost+Reactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 951385BF9946608D4FF8B74353F0A490 /* TGPost+Reactions.m */; };
 		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A08920EDF0F2BC5A95E8F93A850374 /* Result.swift */; };
@@ -113,6 +111,7 @@
 		E465B176D9012D468702E41F1B23E376 /* TGUser+Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDB219F41EE927390AE39515BAB21AB /* TGUser+Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E50AB0922579387CD2A6D4DC76F9E7F8 /* NSDateFormatter+TGISOFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DD3E626E99C41A08452D338DD29B7C /* NSDateFormatter+TGISOFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA77B15BBFF5CC47DE6CB8C9C3F38BA7 /* TGApiRoutesBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B92A8B2B7BA816C2CE542AFD652E3F62 /* TGApiRoutesBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB94EA93487C32400ECEDAC3F3995EB3 /* DefaultSimsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9609012FC5A46D83D751831B4140A /* DefaultSimsApi.swift */; };
 		EE7C7E181E0CBBA1A002FACE4310F02D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF01654967CFA350E6F7B0C5E97793 /* Foundation.framework */; };
 		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956AFAA4AB963B5BD1B52746185D39A /* Request.swift */; };
 		F0A0A544BC15F3A020459464C877EEFF /* Tapglue.m in Sources */ = {isa = PBXBuildFile; fileRef = C24AC573DBE0336D78106FF0843666F6 /* Tapglue.m */; };
@@ -124,6 +123,7 @@
 		F6F2B8848BF9ADD516908DFC6727F00B /* TGApiRoutesBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4156D1F7FEE032F0EF5C3F8033CFEF /* TGApiRoutesBuilder.m */; };
 		F74BAB6BCC84FC90DD9C49DB4EE6E53A /* TGObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8232CD118637A9ADA346C8A2652538 /* TGObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F06A6CDAF4942D0F8FBCEF2C91FF08 /* UIDevice+TGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F185923CB793F08EBB3B6EFA636944F1 /* UIDevice+TGUtilities.m */; };
+		F8951D5E367F39F703D9ED4E32C7CD5A /* TapglueSims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF139BD7887207D42C6F04A6DB9B64 /* TapglueSims.swift */; };
 		FAEFFA05932521D553EC593CC9937845 /* TGLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BFCBED112C062D03588EB2334980BE /* TGLogger.m */; };
 		FB70127E2B36C7A6593B87000B6C330C /* NSURL+TGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4999D638C17090A48341DCC3DFCCDFC8 /* NSURL+TGUtilities.m */; };
 		FC3CF23D8D317FBC82988A986AE1BA6F /* NSString+TGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E8E25629D07DF8EEF85E796095D0F /* NSString+TGUtilities.m */; };
@@ -178,16 +178,16 @@
 		09746B13273B16E7715E15AA651B62D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7C7BE718AB1B9FFF70115D56BB9E54 /* TGConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGConnection.m; path = Classes/Model/TGConnection.m; sourceTree = "<group>"; };
 		0EA101F8AC9ECBF84082A06DA76F69FA /* Pods-sims-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sims-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12F9609012FC5A46D83D751831B4140A /* DefaultSimsApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultSimsApi.swift; sourceTree = "<group>"; };
+		13CF139BD7887207D42C6F04A6DB9B64 /* TapglueSims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapglueSims.swift; sourceTree = "<group>"; };
 		14849A8D3132A42B0A47B0CF67202BFE /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		15573C4B7C71542CB4231EAEDF825E10 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		158F34EC4950B0BB1D2CAB315B08DB08 /* TGReaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGReaction.m; path = Classes/Model/TGReaction.m; sourceTree = "<group>"; };
 		1744FA3F44B25E0D643604C5D53834B9 /* TGModelObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TGModelObject+Private.h"; path = "Classes/Model/TGModelObject+Private.h"; sourceTree = "<group>"; };
-		1A377B4D3FA9B21D59F152DB1345A6B7 /* TapglueSims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapglueSims.swift; sourceTree = "<group>"; };
 		1E22982ADBF0700C85CAF14514F7D56E /* TGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGConstants.h; path = Classes/TGConstants.h; sourceTree = "<group>"; };
 		1EA5680ECDFED753F2054530FD131869 /* TGSessionTokenNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGSessionTokenNotifier.h; path = Classes/TGSessionTokenNotifier.h; sourceTree = "<group>"; };
 		242FE1A4CAC5275251E33E1C3A53F304 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		2472B211BB62F75957C92D9D421F7058 /* Pods-sims-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sims-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		24D3821B717AB346D1DCB2D95E8B7B11 /* SimsApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimsApi.swift; sourceTree = "<group>"; };
 		28030554697C126889B373EC0AB41596 /* TGQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TGQuery+Private.h"; path = "Classes/TGQuery+Private.h"; sourceTree = "<group>"; };
 		2CBA8096E88411682A080F3A621AACB3 /* Tapglue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Tapglue.modulemap; sourceTree = "<group>"; };
 		2CD0FF02BDC7D5C0795BF54266AF961F /* TGBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGBaseManager.h; path = Classes/TGBaseManager.h; sourceTree = "<group>"; };
@@ -228,6 +228,7 @@
 		637BB50C4A3A657529CDD9CB20A9670D /* TGComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGComment.h; path = Classes/Model/TGComment.h; sourceTree = "<group>"; };
 		642DCF44E40BEF560BE005AE5AF00BCE /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		658DB32EAD2D96F567946B8487812E05 /* Pods-sims-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sims-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		685AD390CC34FECE751FA1221580E01E /* SimsApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimsApi.swift; sourceTree = "<group>"; };
 		69A7460B42B39A6093E786C088A0EAA7 /* TGEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGEvent.m; path = Classes/Model/TGEvent.m; sourceTree = "<group>"; };
 		6DC7DD1AE6893CBCE1387BA734BF63D3 /* TGUserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGUserManager.h; path = Classes/TGUserManager.h; sourceTree = "<group>"; };
 		704387CDDCE68978BBD5B67A92FB29BC /* NSString+TGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TGUtilities.h"; path = "Classes/Model/NSString+TGUtilities.h"; sourceTree = "<group>"; };
@@ -270,7 +271,6 @@
 		B43EC9B8091D95E35F5EEC5BCD03B270 /* TGApiClient+TGObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TGApiClient+TGObject.m"; path = "Classes/RestClient/TGApiClient+TGObject.m"; sourceTree = "<group>"; };
 		B92A8B2B7BA816C2CE542AFD652E3F62 /* TGApiRoutesBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGApiRoutesBuilder.h; path = Classes/RestClient/TGApiRoutesBuilder.h; sourceTree = "<group>"; };
 		BB4156D1F7FEE032F0EF5C3F8033CFEF /* TGApiRoutesBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGApiRoutesBuilder.m; path = Classes/RestClient/TGApiRoutesBuilder.m; sourceTree = "<group>"; };
-		BCB5490BD5FF1363B01BCE74A8164E5E /* DefaultSimsApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultSimsApi.swift; sourceTree = "<group>"; };
 		BD194188CF333922FE101BEBADD843DC /* TGComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGComment.m; path = Classes/Model/TGComment.m; sourceTree = "<group>"; };
 		BF1B383D05C5324AFF0A4FB620424E2C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C24AC573DBE0336D78106FF0843666F6 /* Tapglue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Tapglue.m; path = Classes/Tapglue.m; sourceTree = "<group>"; };
@@ -452,6 +452,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6866E6D0C6C3787170589BE717051E9B /* sims-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D52F9CABE5CD2C3C37DB80858BC31F99 /* Classes */,
+			);
+			path = "sims-ios";
+			sourceTree = "<group>";
+		};
 		70B559D0E96DF7414606DA6D69DA15D4 /* Tapglue */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,16 +572,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		7DBBE1BAFCF1FF028A885F061CA79BEC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BCB5490BD5FF1363B01BCE74A8164E5E /* DefaultSimsApi.swift */,
-				24D3821B717AB346D1DCB2D95E8B7B11 /* SimsApi.swift */,
-				1A377B4D3FA9B21D59F152DB1345A6B7 /* TapglueSims.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DDF9AB8E22CC1D8B0FB069CE6B7CBD8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -626,7 +624,7 @@
 		A486395C006BF2B9234603EDF5614037 /* TapglueSims */ = {
 			isa = PBXGroup;
 			children = (
-				FDAA8FA8308528431AD85152470C07EE /* sims-ios */,
+				6866E6D0C6C3787170589BE717051E9B /* sims-ios */,
 				13CB538FE6EC283145F5F61C7444A584 /* Support Files */,
 			);
 			name = TapglueSims;
@@ -651,12 +649,14 @@
 			path = "Target Support Files/Pods-sims-ios_Tests";
 			sourceTree = "<group>";
 		};
-		FDAA8FA8308528431AD85152470C07EE /* sims-ios */ = {
+		D52F9CABE5CD2C3C37DB80858BC31F99 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7DBBE1BAFCF1FF028A885F061CA79BEC /* Classes */,
+				12F9609012FC5A46D83D751831B4140A /* DefaultSimsApi.swift */,
+				685AD390CC34FECE751FA1221580E01E /* SimsApi.swift */,
+				13CF139BD7887207D42C6F04A6DB9B64 /* TapglueSims.swift */,
 			);
-			path = "sims-ios";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -828,7 +828,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0121388FBD318AAA8256B6FA0237751F /* Build configuration list for PBXNativeTarget "TapglueSims" */;
 			buildPhases = (
-				D0D22A90F07F29F74A2AABCC4A7DD5A2 /* Sources */,
+				BC73A3BEC0C728A28A477A2E0A83A5B9 /* Sources */,
 				88A57BBBED68ABE14DFFD71A7FB95693 /* Frameworks */,
 				02C395012E3E88CE26E208DBB3DBE56B /* Headers */,
 			);
@@ -959,14 +959,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0D22A90F07F29F74A2AABCC4A7DD5A2 /* Sources */ = {
+		BC73A3BEC0C728A28A477A2E0A83A5B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19C01E06ED222214D5EEA7B50280E70 /* DefaultSimsApi.swift in Sources */,
-				78EE8B04C5E0E3A0C0D2A68DBE313B9C /* SimsApi.swift in Sources */,
-				1E0E17C523E75E80F5C9A527A9DD3271 /* TapglueSims-dummy.m in Sources */,
-				2551F716C22F673D18BAB58026E551A4 /* TapglueSims.swift in Sources */,
+				EB94EA93487C32400ECEDAC3F3995EB3 /* DefaultSimsApi.swift in Sources */,
+				0F05313122946E20EBDEC4215F4F8E23 /* SimsApi.swift in Sources */,
+				0B83E97F60882B85406095245F1A4784 /* TapglueSims-dummy.m in Sources */,
+				F8951D5E367F39F703D9ED4E32C7CD5A /* TapglueSims.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
