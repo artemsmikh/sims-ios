@@ -15,11 +15,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Sims is currently under development. To install sims please add it as a submodule to your project
 
+```
 $ git submodule add git@github.com:tapglue/sims-ios.git externals/sims
+```
 
 then add it as a pod to your podfile:
 
+```Ruby
 pod 'TapglueSims', :path => '<your app>/externals/sims/'
+```
 
 ## Configuration
 
