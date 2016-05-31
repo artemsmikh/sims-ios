@@ -27,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Tapglue.setUpWithAppToken(appToken, andConfig: customConfig)
         
         Tapglue.setSessionTokenNotifier(sims)
+        
+        print(launchOptions)
         return true
     }
     
@@ -46,6 +48,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
         print("Failed to register:", error)
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification notificationSettings: [NSObject : AnyObject]) {
+        print(notificationSettings)
     }
 }
 
