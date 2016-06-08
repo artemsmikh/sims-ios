@@ -15,16 +15,19 @@ public class TapglueSims : NSObject, TGSessionTokenNotifier {
     var deviceToken: String?
     var api : SimsApi
     
-    public init(appToken: String, url: String) {
+    public convenience init(appToken: String, url: String) {
+        self.init(appToken: appToken, url: url, environment: Environment.Production)
+    }
+    
+    public init(appToken: String, url:String, environment: Environment) {
         self.appToken = appToken
-        api = DefaultSimsApi(url: url)
+        api = DefaultSimsApi(url: url, environment: environment)
     }
     
     public func registerSimsNotificationSettings(application: UIApplication) {
         let notificationSettings = UIUserNotificationSettings(
             forTypes: [.Badge, .Sound, .Alert], categories: nil)
         application.registerUserNotificationSettings(notificationSettings)
-
     }
     
     public func registerDeviceToken(deviceToken: NSData) {
@@ -57,4 +60,9 @@ public class TapglueSims : NSObject, TGSessionTokenNotifier {
     private func registerDeviceOnApiWithAppToken(appToken: String, deviceToken: String, sessionToken: String) {
         api.registerDevice(appToken, deviceToken: deviceToken, sessionToken: sessionToken)
     }
+}
+
+public enum Environment: Int {
+    case Sandbox = 1
+    case Production = 2
 }

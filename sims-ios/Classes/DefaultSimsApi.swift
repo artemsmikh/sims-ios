@@ -13,9 +13,11 @@ class DefaultSimsApi: SimsApi {
     
     let url: String
     let deviceRegistrationPath = "/0.4/me/devices/"
+    let environment: Environment
     
-    init(url: String) {
+    init(url: String, environment: Environment) {
         self.url = url
+        self.environment = environment
     }
 
     func registerDevice(appToken: String, deviceToken: String, sessionToken: String) {
@@ -28,7 +30,7 @@ class DefaultSimsApi: SimsApi {
             "Accept": "application/json"
         ]
         let parameters = ["token": deviceToken,
-                          "platform": 1,
+                          "platform": environment.rawValue,
                           "language": language]
         
         let idfv = UIDevice.currentDevice().identifierForVendor?.UUIDString
