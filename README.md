@@ -56,6 +56,8 @@ For sims to work it need to be configured with a token, url session and device t
     }
 ```
 
+If **URL** you don't have a custom URL from Tapglue, that just the default one: `https://api.tapglue.com`
+
 For more details on APNs registration be sure to check apple's own documentation. 
 
 ## Application APNs Certificate
